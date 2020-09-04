@@ -14,7 +14,11 @@ describe('SolarProfile', () => {
     expect(profile1.earthRemain).toEqual(7);
   });
 
-  test('Test 3: Should calculate mercuryAge property value from earthAge and earthExpec property values', () =>{    
+  test('Test 3: Should calculate mercuryAge property value from earthAge property value', () =>{    
     expect(profile1.mercuryAge).toEqual(6);
+  });
+
+  test('Test 4: Should calculate mercuryExpec property value from earthExpec property value', () =>{    
+    expect(profile1.mercuryExpec).toEqual(8);
   });
 });
