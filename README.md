@@ -180,7 +180,7 @@ Take a person's age in years and create a class that does the following: **[Comp
       jupiterExpec: 415,
       jupiterRemain: 83,
       solarText: 
-      "The average life expectancy for your demographic on Earth is 35, and you're currently 28 years old. You've got 7 more years to go!
+      `The average life expectancy for your demographic on Earth is 35, and you're currently 28 years old. You've got 7 more years to go!
       
       On Mercury the average life expectancy for your demographic is 8, and you're currently 6 years old (in Mercury years of course). You've got 2 more Mercury years to go!
 
@@ -188,7 +188,7 @@ Take a person's age in years and create a class that does the following: **[Comp
 
       On Mars the average life expectancy for your demographic is 65, and you're currently 52 years old (in Mars years of course). You've got 13 more Mars years to go!
       
-      On Jupiter the average life expectancy for your demographic is 415, and you're currently 332 years old (in Jupiter years of course). You've got 83 more Jupiter years to go!
+      On Jupiter the average life expectancy for your demographic is 415, and you're currently 332 years old (in Jupiter years of course). You've got 83 more Jupiter years to go!`
       };
 
 ## UI Specs
