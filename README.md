@@ -57,36 +57,108 @@ Take a person's age in years and create a class that does the following: **[TBD]
 ## Specs for Program Behaviors
 
   1.[] Given input from the user for their age and demographic's average life expectancy, create a object for their 'solar profile' using the input from the form to populate the values of the 'earthAge' and 'earthExpec' properties.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35
+      };
 
   2.[] Calculate expected remaining life in Earth years given the 'earthAge' and 'earthExpec' value, and include a 'earthRemain' property to the solarProfile object to reflect the difference between the life expectancy and the current age of the user in Earth years (value to be positive or negative depending on whether the age surpasses the expectancy value) with these values.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7
+      }; 
 
   3.[] Calculate age in Mercury years given the earthAge value, and include a 'mercuryAge' property to the solarProfile object with this value.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 0
+      }; 
 
   4.[] Calculate life expectancy in Mercury years given the earthExpec value, and include a 'mercuryExpec' property to the solarProfile object with this value.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 0,
+      mercuryExpec: 0
+      };
 
   5.[] Calculate expected remaining life in Mercury years given the 'mercuryAge' and 'mercuryExpec' value, and include a 'mercuryRemain' property to the solarProfile object to reflect the difference between the life expectancy and the current age of the user in Mercury years (value to be positive or negative depending on whether the age surpasses the expectancy value) with these values.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 0,
+      mercuryExpec: 0,
+      mercuryRemain: 0
+      }; 
 
   6.[] Replicate the behaviors of specs 3-5 for Venus in place of Mercury, adding to the solarProfile object properties and values.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 0,
+      mercuryExpec: 0,
+      mercuryRemain: 0,
+      venusAge: 0,
+      venusExpec: 0,
+      venusRemain: 0
+      }; 
 
   7.[] Replicate the behaviors of specs 3-5 for Mars in place of Mercury, adding to the solarProfile object properties and values.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 0,
+      mercuryExpec: 0,
+      mercuryRemain: 0,
+      venusAge: 0,
+      venusExpec: 0,
+      venusRemain: 0,
+      marsAge: 0,
+      marsExpec: 0,
+      marsRemain: 0
+      }; 
 
   8.[] Replicate the behaviors of specs 3-5 for Jupiter in place of Mercury, adding to the solarProfile object properties and values.
-    * Input: 
+    * Input: profile1 = new SolarProfile(28,35)
     * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 0,
+      mercuryExpec: 0,
+      mercuryRemain: 0,
+      venusAge: 0,
+      venusExpec: 0,
+      venusRemain: 0,
+      marsAge: 0,
+      marsExpec: 0,
+      marsRemain: 0,
+      jupiterAge: 0,
+      jupiterExpec: 0,
+      jupiterRemain: 0
+      }; 
 
 ## Setup/Installation Requirements
 
