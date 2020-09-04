@@ -49,4 +49,8 @@ describe('SolarProfile', () => {
   test('Test 11: Should calculate marsRemain property value from marsAge and marsExpec property values', () =>{    
     expect(profile1.marsRemain).toEqual(13);
   });
+
+  test('Test 12: Should calculate jupiterAge property value from earthAge property value', () =>{    
+    expect(profile1.jupiterAge).toEqual(332);
+  });
 });
