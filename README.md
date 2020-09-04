@@ -121,7 +121,7 @@ Take a person's age in years and create a class that does the following: **[TBD]
       venusRemain: 4
       }; 
 
-  7.[] Replicate the behaviors of specs 3-5 for Mars in place of Mercury, adding to the solarProfile object properties and values.
+  7.[X] Replicate the behaviors of specs 3-5 for Mars in place of Mercury, adding to the solarProfile object properties and values.
     * Input: profile1 = new SolarProfile(28,35)
     * Output: 
       profile1 = {
