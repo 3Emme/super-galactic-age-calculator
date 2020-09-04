@@ -18,41 +18,41 @@ You are not required to build a UI for this application. Instead, focus on thoro
 
 The business logic of your application should:
 
-Take a person's age in years and create a class that does the following: **[TBD]**
+Take a person's age in years and create a class that does the following: **[Complete]**
 
-  * Returns their age in Mercury years. (A Mercury year is .24 Earth years.) **[TBD]**
-  * Returns their age in Venus years. (A Venus year is .62 Earth years.) **[TBD]**
-  * Returns their age in Mars years. (A Mars year is 1.88 Earth years.) **[TBD]**
-  * Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.) **[TBD]**
-  * Determines how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user's life expectancy. You can determine average life expectancy as you see fit. A simple way to do this would be to have the user input the average life expectancy for their demographic. A more involved way to do this would be to collect other information from the user (e.g. lifestyle, country of residence, activity level, etc.) to determine their life expectancy. **[TBD]**
-  * If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. **[TBD]**
+  * Returns their age in Mercury years. (A Mercury year is .24 Earth years.) **[Complete]**
+  * Returns their age in Venus years. (A Venus year is .62 Earth years.) **[Complete]**
+  * Returns their age in Mars years. (A Mars year is 1.88 Earth years.) **[Complete]**
+  * Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.) **[Complete]**
+  * Determines how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user's life expectancy. You can determine average life expectancy as you see fit. A simple way to do this would be to have the user input the average life expectancy for their demographic. A more involved way to do this would be to collect other information from the user (e.g. lifestyle, country of residence, activity level, etc.) to determine their life expectancy. **[Complete]**
+  * If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. **[Complete]**
 
 ## Project Objectives:
 
   * Code meets standards from previous weeks. **[TBD]**
-  * Business logic is thoroughly tested with Jest. **[TBD]**
-  * Each spec was committed before writing its corresponding code. **[TBD]**
+  * Business logic is thoroughly tested with Jest. **[Complete]**
+  * Each spec was committed before writing its corresponding code. **[Complete]**
   * Project utilizes ES6 features including classes and template literals. **[TBD]**
-  * Dependencies are managed with npm. **[TBD]**
-  * webpack is used to lint, bundle, and process code. **[TBD]**
-  * Project is in a polished, portfolio-quality state. **[TBD]**
-  * Required functionality was in place by the Friday deadline. **[TBD]**
-  * Project demonstrates understanding of week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology. **[TBD]**
+  * Dependencies are managed with npm. **[Complete]**
+  * webpack is used to lint, bundle, and process code. **[Complete]**
+  * Project is in a polished, portfolio-quality state. **[Complete]**
+  * Required functionality was in place by the Friday deadline. **[Complete]**
+  * Project demonstrates understanding of week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology. **[Complete]**
 
   _For reference, here are last week's standards:_
 
-  * Project is in a presentable, portfolio-quality state.  **[TBD]**
-  * Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.  **[TBD]**
-  * Variable names are descriptive and use lower camel case (e.g. myVariableExample).  **[TBD]**
-  * JavaScript business logic and user interface logic are separate.  **[TBD]**
-  * Tests are included for each behavior and code is committed after each test passes.  **[TBD]**
-  * Commits are made regularly with clear messages that finish the phrase "It will…".  **[TBD]**
+  * Project is in a presentable, portfolio-quality state.  **[Complete]**
+  * Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.  **[Complete]**
+  * Variable names are descriptive and use lower camel case (e.g. myVariableExample).  **[Complete]**
+  * JavaScript business logic and user interface logic are separate.  **[Complete]**
+  * Tests are included for each behavior and code is committed after each test passes.  **[Complete]**
+  * Commits are made regularly with clear messages that finish the phrase "It will…".  **[Complete]**
   * Project README that includes, bare minimum:
-    * author name  **[TBD]**
-    * program name  **[TBD]**
+    * author name  **[Complete]**
+    * program name  **[Complete]**
     * detailed setup instructions  **[TBD]**
-    * description  **[TBD]**
-    * copyright and license information  **[TBD]**
+    * description  **[Complete]**
+    * copyright and license information  **[Complete]**
 
 ## Specs for Program Behaviors
 
