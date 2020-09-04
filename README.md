@@ -54,7 +54,7 @@ Take a person's age in years and create a class that does the following: **[Comp
     * description  **[Complete]**
     * copyright and license information  **[Complete]**
 
-## Specs for Program Behaviors
+## Business Specs
 
   1.[X] Given input from the user for their age and demographic's average life expectancy, create a object for their 'solar profile' using the input from the form to populate the values of the 'earthAge' and 'earthExpec' properties.
     * Input: profile1 = new SolarProfile(28,35)
@@ -159,6 +159,39 @@ Take a person's age in years and create a class that does the following: **[Comp
       jupiterExpec: 415,
       jupiterRemain: 83
       }; 
+
+      8.[] Create a block of text populated with the solarProfile object properties and values.
+    * Input: profile1 = new SolarProfile(28,35)
+    * Output: 
+      profile1 = {
+      earthAge: 28,
+      earthExpec: 35,
+      earthRemain: 7,
+      mercuryAge: 6,
+      mercuryExpec: 8,
+      mercuryRemain: 2,
+      venusAge: 17,
+      venusExpec: 21,
+      venusRemain: 4,
+      marsAge: 52,
+      marsExpec: 65,
+      marsRemain: 13,
+      jupiterAge: 332,
+      jupiterExpec: 415,
+      jupiterRemain: 83,
+      solarText: 
+      "The average life expectancy for your demographic on Earth is 35, and you're currently 28 years old. You've got 7 more years to go!
+      
+      On Mercury the average life expectancy for your demographic is 8, and you're currently 6 years old (in Mercury years of course). You've got 2 more Mercury years to go!
+
+      On Venus the average life expectancy for your demographic is 21, and you're currently 17 years old (in Venus years of course). You've got 4 more Venus years to go!
+
+      On Mars the average life expectancy for your demographic is 65, and you're currently 52 years old (in Mars years of course). You've got 13 more Mars years to go!
+      
+      On Jupiter the average life expectancy for your demographic is 415, and you're currently 332 years old (in Jupiter years of course). You've got 83 more Jupiter years to go!
+      };
+
+## UI Specs
 
 ## Setup/Installation Requirements
 
