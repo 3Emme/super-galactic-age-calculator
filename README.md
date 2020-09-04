@@ -64,7 +64,7 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthExpec: 35
       };
 
-  2.[] Calculate expected remaining life in Earth years given the 'earthAge' and 'earthExpec' value, and include a 'earthRemain' property to the solarProfile object to reflect the difference between the life expectancy and the current age of the user in Earth years (value to be positive or negative depending on whether the age surpasses the expectancy value) with these values.
+  2.[X] Calculate expected remaining life in Earth years given the 'earthAge' and 'earthExpec' value, and include a 'earthRemain' property to the solarProfile object to reflect the difference between the life expectancy and the current age of the user in Earth years (value to be positive or negative depending on whether the age surpasses the expectancy value) with these values.
     * Input: profile1 = new SolarProfile(28,35)
     * Output: 
       profile1 = {
