@@ -45,4 +45,8 @@ describe('SolarProfile', () => {
   test('Test 10: Should calculate marsExpec property value from earthExpec property value', () =>{    
     expect(profile1.marsExpec).toEqual(65);
   });
+
+  test('Test 11: Should calculate marsRemain property value from marsAge and marsExpec property values', () =>{    
+    expect(profile1.marsRemain).toEqual(13);
+  });
 });
