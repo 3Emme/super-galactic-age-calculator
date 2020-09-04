@@ -160,7 +160,7 @@ Take a person's age in years and create a class that does the following: **[Comp
       jupiterRemain: 83
       }; 
 
-      8.[] Create a block of text populated with the solarProfile object properties and values.
+  9.[X] Create a block of text populated with the solarProfile object properties and values.
     * Input: profile1 = new SolarProfile(28,35)
     * Output: 
       profile1 = {
