@@ -73,7 +73,7 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthRemain: 7
       }; 
 
-  3.[] Calculate age in Mercury years given the earthAge value, and include a 'mercuryAge' property to the solarProfile object with this value.
+  3.[X] Calculate age in Mercury years given the earthAge value, and include a 'mercuryAge' property to the solarProfile object with this value.
     * Input: profile1 = new SolarProfile(28,35)
     * Output: 
       profile1 = {
