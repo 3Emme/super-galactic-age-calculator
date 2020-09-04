@@ -8,6 +8,7 @@ export default class SolarProfile {
     this.mercuryRemain = this.mercuryExpec - this.mercuryAge,
     this.venusAge = Math.floor(earthAge * .62),
     this.venusExpec = Math.floor(earthExpec * .62),
-    this.venusRemain = this.venusExpec - this.venusAge
+    this.venusRemain = this.venusExpec - this.venusAge,
+    this.marsAge = Math.floor(earthAge * 1.88)
   }
 }
