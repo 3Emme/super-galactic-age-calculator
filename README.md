@@ -83,7 +83,7 @@ Take a person's age in years and create a class that does the following: **[TBD]
       mercuryAge: 6
       }; 
 
-  4.[] Calculate life expectancy in Mercury years given the earthExpec value, and include a 'mercuryExpec' property to the solarProfile object with this value.
+  4.[X] Calculate life expectancy in Mercury years given the earthExpec value, and include a 'mercuryExpec' property to the solarProfile object with this value.
     * Input: profile1 = new SolarProfile(28,35)
     * Output: 
       profile1 = {
