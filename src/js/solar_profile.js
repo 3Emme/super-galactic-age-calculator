@@ -12,6 +12,7 @@ export default class SolarProfile {
     this.marsAge = Math.floor(earthAge * 1.88),
     this.marsExpec = Math.floor(earthExpec * 1.88),
     this.marsRemain = this.marsExpec - this.marsAge,
-    this.jupiterAge = Math.floor(earthAge * 11.86)
+    this.jupiterAge = Math.floor(earthAge * 11.86),
+    this.jupiterExpec = Math.floor(earthExpec * 11.86)
   }
 }
