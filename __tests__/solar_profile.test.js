@@ -37,4 +37,8 @@ describe('SolarProfile', () => {
   test('Test 8: Should calculate venusRemain property value from venusAge and venusExpec property values', () =>{    
     expect(profile1.venusRemain).toEqual(4);
   });
+
+  test('Test 9: Should calculate marsAge property value from earthAge property value', () =>{    
+    expect(profile1.marsAge).toEqual(52);
+  });
 });
