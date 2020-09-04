@@ -80,7 +80,7 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthAge: 28,
       earthExpec: 35,
       earthRemain: 7,
-      mercuryAge: 0
+      mercuryAge: 6
       }; 
 
   4.[] Calculate life expectancy in Mercury years given the earthExpec value, and include a 'mercuryExpec' property to the solarProfile object with this value.
@@ -90,8 +90,8 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthAge: 28,
       earthExpec: 35,
       earthRemain: 7,
-      mercuryAge: 0,
-      mercuryExpec: 0
+      mercuryAge: 6,
+      mercuryExpec: 8
       };
 
   5.[] Calculate expected remaining life in Mercury years given the 'mercuryAge' and 'mercuryExpec' value, and include a 'mercuryRemain' property to the solarProfile object to reflect the difference between the life expectancy and the current age of the user in Mercury years (value to be positive or negative depending on whether the age surpasses the expectancy value) with these values.
@@ -101,9 +101,9 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthAge: 28,
       earthExpec: 35,
       earthRemain: 7,
-      mercuryAge: 0,
-      mercuryExpec: 0,
-      mercuryRemain: 0
+      mercuryAge: 6,
+      mercuryExpec: 8,
+      mercuryRemain: 2
       }; 
 
   6.[] Replicate the behaviors of specs 3-5 for Venus in place of Mercury, adding to the solarProfile object properties and values.
@@ -113,12 +113,12 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthAge: 28,
       earthExpec: 35,
       earthRemain: 7,
-      mercuryAge: 0,
-      mercuryExpec: 0,
-      mercuryRemain: 0,
-      venusAge: 0,
-      venusExpec: 0,
-      venusRemain: 0
+      mercuryAge: 6,
+      mercuryExpec: 8,
+      mercuryRemain: 2,
+      venusAge: 17,
+      venusExpec: 21,
+      venusRemain: 4
       }; 
 
   7.[] Replicate the behaviors of specs 3-5 for Mars in place of Mercury, adding to the solarProfile object properties and values.
@@ -128,15 +128,15 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthAge: 28,
       earthExpec: 35,
       earthRemain: 7,
-      mercuryAge: 0,
-      mercuryExpec: 0,
-      mercuryRemain: 0,
-      venusAge: 0,
-      venusExpec: 0,
-      venusRemain: 0,
-      marsAge: 0,
-      marsExpec: 0,
-      marsRemain: 0
+      mercuryAge: 6,
+      mercuryExpec: 8,
+      mercuryRemain: 2,
+      venusAge: 17,
+      venusExpec: 21,
+      venusRemain: 4,
+      marsAge: 52,
+      marsExpec: 65,
+      marsRemain: 13
       }; 
 
   8.[] Replicate the behaviors of specs 3-5 for Jupiter in place of Mercury, adding to the solarProfile object properties and values.
@@ -146,18 +146,18 @@ Take a person's age in years and create a class that does the following: **[TBD]
       earthAge: 28,
       earthExpec: 35,
       earthRemain: 7,
-      mercuryAge: 0,
-      mercuryExpec: 0,
-      mercuryRemain: 0,
-      venusAge: 0,
-      venusExpec: 0,
-      venusRemain: 0,
-      marsAge: 0,
-      marsExpec: 0,
-      marsRemain: 0,
-      jupiterAge: 0,
-      jupiterExpec: 0,
-      jupiterRemain: 0
+      mercuryAge: 6,
+      mercuryExpec: 8,
+      mercuryRemain: 2,
+      venusAge: 17,
+      venusExpec: 21,
+      venusRemain: 4,
+      marsAge: 52,
+      marsExpec: 65,
+      marsRemain: 13,
+      jupiterAge: 332,
+      jupiterExpec: 415,
+      jupiterRemain: 83
       }; 
 
 ## Setup/Installation Requirements
