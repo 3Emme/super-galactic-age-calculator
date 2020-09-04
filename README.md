@@ -56,7 +56,7 @@ Take a person's age in years and create a class that does the following: **[TBD]
 
 ## Specs for Program Behaviors
 
-  1.[] Given input from the user for their age and demographic's average life expectancy, create a object for their 'solar profile' using the input from the form to populate the values of the 'earthAge' and 'earthExpec' properties.
+  1.[X] Given input from the user for their age and demographic's average life expectancy, create a object for their 'solar profile' using the input from the form to populate the values of the 'earthAge' and 'earthExpec' properties.
     * Input: profile1 = new SolarProfile(28,35)
     * Output: 
       profile1 = {
