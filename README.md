@@ -1,6 +1,6 @@
 # __Super Galactic Age Calculator__
 
-#### __An application which a user can use to determine their solar age, given the planet on which they live. September 4, 2020__
+#### __An application which a user can use to determine their solar age and their remaining life expectancy, should they live on other planets. September 4, 2020__
 
 #### By _**Emme Buentiempo**_
 
@@ -56,7 +56,33 @@ Take a person's age in years and create a class that does the following: **[TBD]
 
 ## Specs for Program Behaviors
 
-TBD
+  1.[] Given input from the user for their age and demographic's average life expectancy, create a object for their 'solar profile' using the input from the form to populate the values of the 'earthAge' and 'earthExpec' properties.
+    * Input: 
+    * Output: 
+
+  2.[] Calculate age in Mercury years given the earthAge value, and include a 'mercuryAge' property to the solarProfile object with this value.
+    * Input: 
+    * Output: 
+
+  3.[] Calculate life expectancy in Mercury years given the earthExpec value, and include a 'mercuryExpec' property to the solarProfile object with this value.
+    * Input: 
+    * Output: 
+
+  4.[] Calculate expected remaining life in Mercury years given the 'mercuryAge' and 'mercuryExpec' value, and include a 'mercuryRemain' property to the solarProfile object to reflect the difference between the life expectancy and the current age of the user in Mercury years (value to be positive or negative depending on whether the age surpasses the expectancy value) with these values.
+    * Input: 
+    * Output: 
+
+  5.[] Replicate the behaviors of specs 2-4 for Venus in place of Mercury, adding to the solarProfile object properties and values.
+    * Input: 
+    * Output: 
+
+  6.[] Replicate the behaviors of specs 2-4 for Mars in place of Mercury, adding to the solarProfile object properties and values.
+    * Input: 
+    * Output: 
+
+  7.[] Replicate the behaviors of specs 2-4 for Jupiter in place of Mercury, adding to the solarProfile object properties and values.
+    * Input: 
+    * Output: 
 
 ## Setup/Installation Requirements
 
