@@ -179,8 +179,7 @@ Take a person's age in years and create a class that does the following: **[Comp
       jupiterAge: 332,
       jupiterExpec: 415,
       jupiterRemain: 83,
-      solarText: 
-      `The average life expectancy for your demographic on Earth is 35, and you're currently 28 years old. You've got 7 more years to go!
+      solarText: `The average life expectancy for your demographic on Earth is 35, and you're currently 28 years old. You've got 7 more years to go!
       
       On Mercury the average life expectancy for your demographic is 8, and you're currently 6 years old (in Mercury years of course). You've got 2 more Mercury years to go!
 
@@ -189,6 +188,36 @@ Take a person's age in years and create a class that does the following: **[Comp
       On Mars the average life expectancy for your demographic is 65, and you're currently 52 years old (in Mars years of course). You've got 13 more Mars years to go!
       
       On Jupiter the average life expectancy for your demographic is 415, and you're currently 332 years old (in Jupiter years of course). You've got 83 more Jupiter years to go!`
+      };
+
+    10.[] Populate one of two blocks of text populated with the solarProfile object properties and values, dependant on whether the earthRemain value is positive or negative
+    * Input: profile1 = new SolarProfile(42,35)
+    * Output: 
+      profile1 = {
+      earthAge: 42,
+      earthExpec: 35,
+      earthRemain: -7,
+      mercuryAge: 10,
+      mercuryExpec: 8,
+      mercuryRemain: -2,
+      venusAge: 26,
+      venusExpec: 21,
+      venusRemain: -5,
+      marsAge: 78,
+      marsExpec: 65,
+      marsRemain: -13,
+      jupiterAge: 498,
+      jupiterExpec: 415,
+      jupiterRemain: -83,
+      solarText: `The average life expectancy for your demographic on Earth is 35, and you're currently 42 years old. You must have eaten your vegetables, because that's a whopping 7 years beyond the average!
+      
+    On Mercury the average life expectancy for your demographic is 8, and you're currently 10 years old (in Mercury years of course). You must work out, because that's a whopping 2 Mercury years beyond the average!
+
+    On Venus the average life expectancy for your demographic is 21, and you're currently 26 years old (in Venus years of course). You have got to tell me your secret, because that's a whopping 5 Venus years beyond the average!
+
+    On Mars the average life expectancy for your demographic is 65, and you're currently 78 years old (in Mars years of course). I'll have whatever you're having, because that's a whopping 13 Mars years beyond the average!
+    
+    On Jupiter the average life expectancy for your demographic is 415, and you're currently 498 years old (in Jupiter years of course). You must be kidding, because that's a whopping 83 Jupiter years beyond the average!`
       };
 
 ## UI Specs
