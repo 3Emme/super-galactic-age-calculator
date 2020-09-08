@@ -190,7 +190,7 @@ Take a person's age in years and create a class that does the following: **[Comp
       On Jupiter the average life expectancy for your demographic is 415, and you're currently 332 years old (in Jupiter years of course). You've got 83 more Jupiter years to go!`
       };
 
-    10.[] Populate one of two blocks of text populated with the solarProfile object properties and values, dependant on whether the earthRemain value is positive or negative
+    10.[X] Populate one of two blocks of text populated with the solarProfile object properties and values, dependant on whether the earthRemain value is positive or negative
     * Input: profile1 = new SolarProfile(42,35)
     * Output: 
       profile1 = {
