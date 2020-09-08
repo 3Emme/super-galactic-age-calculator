@@ -8,8 +8,6 @@
 
 This application was created as an Epicodus assignment, with the intent to have it serve as a demonstration of knowledge after the program's fifth week. For the time being this README will serve as a checklist to demonstrate the satisfaction of all project requirements and objectives. 
 
-[Link to live website](http://3emme.github.io/super-galactic-age-calculator/)
-
 ## Project requirements:
 
 A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Write an application that determines a user's age based on a planet's solar years.
@@ -29,10 +27,10 @@ Take a person's age in years and create a class that does the following: **[Comp
 
 ## Project Objectives:
 
-  * Code meets standards from previous weeks. **[TBD]**
+  * Code meets standards from previous weeks. **[Complete]**
   * Business logic is thoroughly tested with Jest. **[Complete]**
   * Each spec was committed before writing its corresponding code. **[Complete]**
-  * Project utilizes ES6 features including classes and template literals. **[TBD]**
+  * Project utilizes ES6 features including classes and template literals. **[Complete]**
   * Dependencies are managed with npm. **[Complete]**
   * webpack is used to lint, bundle, and process code. **[Complete]**
   * Project is in a polished, portfolio-quality state. **[Complete]**
@@ -50,7 +48,7 @@ Take a person's age in years and create a class that does the following: **[Comp
   * Project README that includes, bare minimum:
     * author name  **[Complete]**
     * program name  **[Complete]**
-    * detailed setup instructions  **[TBD]**
+    * detailed setup instructions  **[Complete]**
     * description  **[Complete]**
     * copyright and license information  **[Complete]**
 
@@ -227,8 +225,10 @@ Take a person's age in years and create a class that does the following: **[Comp
 * _open terminal_
 * _type "cd desktop", then press enter_
 * _type "git clone https://github.com/3emme/super-galactic-age-calculator", then press enter_
-* _locate and open folder on desktop named "super-galactic-age-calculator"_
-* _open the file named "index.html"_ **[May need correction]**
+* _locate and open folder on desktop named "super-galactic-age-calculator" with your console of choice_
+* _in console, run $npm install
+* _in console, run $npm run build
+
 
 ## Support and contact details
 
@@ -240,7 +240,11 @@ _Please do not hesitate to contact me at emmettbuentiempo@gmail.com should you h
 * _CSS_
 * _Bootstrap_
 * _Javascript_
-* _jQuery_ **[May need correction]**
+* _jQuery_
+* _eslint
+* _Jest_
+* _Babel_
+
 
 ### License
 
