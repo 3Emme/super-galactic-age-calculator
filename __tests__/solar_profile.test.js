@@ -73,4 +73,17 @@ describe('SolarProfile', () => {
     
     On Jupiter the average life expectancy for your demographic is 415, and you're currently 332 years old (in Jupiter years of course). You've got 83 more Jupiter years to go!`);
   });
+
+  test('Test 16: Should populate one of two blocks of text populated with the solarProfile object properties and values, dependant on whether the earthRemain value is positive or negative', () =>{   
+    let profile2 = new SolarProfile(42,35); 
+    expect(profile2.solarText).toEqual(`The average life expectancy for your demographic on Earth is 35, and you're currently 42 years old. You must have eaten your vegetables, because that's a whopping 7 years beyond the average!
+      
+    On Mercury the average life expectancy for your demographic is 8, and you're currently 10 years old (in Mercury years of course). You must work out, because that's a whopping 2 Mercury years beyond the average!
+
+    On Venus the average life expectancy for your demographic is 21, and you're currently 26 years old (in Venus years of course). You have got to tell me your secret, because that's a whopping 5 Venus years beyond the average!
+
+    On Mars the average life expectancy for your demographic is 65, and you're currently 78 years old (in Mars years of course). I'll have whatever you're having, because that's a whopping 13 Mars years beyond the average!
+    
+    On Jupiter the average life expectancy for your demographic is 415, and you're currently 498 years old (in Jupiter years of course). You must be kidding, because that's a whopping 83 Jupiter years beyond the average!`);
+  });
 });
